@@ -60,7 +60,7 @@ academic-ai-agent/
 │ └── package.json
 │
 ├── models/ # GGUF-format local LLMs
-│ └── mistral-7b-instruct.gguf
+│ └── llama-3-8b-instruct.gguf
 │
 ├── docs/ # MkDocs documentation
 ├── requirements.txt
@@ -72,7 +72,7 @@ academic-ai-agent/
 
 | Component       | Technology                        |
 | --------------- | --------------------------------- |
-| AI Model        | LLaMA 3 / Mistral (GGUF format)   |
+| AI Model        | LLaMA 3 8B Instruct (GGUF format) |
 | AI Framework    | LangChain / LlamaIndex            |
 | Backend         | Python (FastAPI)                  |
 | Frontend        | Streamlit or React (Vite/Next.js) |
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ### 3. Download and place a GGUF model
 
-Put your mistral-7b-instruct.gguf or compatible .gguf model inside the models/ directory.
+Put your llama-3-8b-instruct.gguf or compatible .gguf model inside the models/ directory.
 
 ### 4. Run the FastAPI backend
 
