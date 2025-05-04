@@ -18,24 +18,30 @@
 
 ## 🧩 Project Architecture
 
+```
 academic-ai-agent/
 │
 ├── backend/ # Python (FastAPI)
 │ ├── main.py # FastAPI app & endpoint router
+│ │
 │ ├── models/ # LLM loading and management
 │ │ └── llama_loader.py
+│ │
 │ ├── agents/ # One file per AI task (agent)
 │ │ ├── paraphrase_agent.py
 │ │ ├── summary_agent.py
 │ │ ├── grammar_agent.py
 │ │ ├── citation_agent.py
 │ │ └── source_agent.py
+│ │
 │ ├── utils/ # NLP & citation formatting helpers
 │ │ ├── grammar_tools.py
 │ │ ├── citation_formatter.py
 │ │ └── text_cleaner.py
+│ │
 │ ├── data/ # Local academic sources DB
 │ │ └── sources.db # SQLite database
+| |
 │ └── config.py # Model paths and constants
 │
 ├── frontend/ # React frontend (Vite/Next.js)
@@ -59,8 +65,7 @@ academic-ai-agent/
 ├── requirements.txt
 ├── pyproject.toml (optional)
 └── README.md
-
----
+```
 
 ## 🔧 Technologies Used
 
@@ -111,11 +116,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-## 🧪 Testing
-
-Test API endpoints directly via:
-
-http://localhost:8000/docs (FastAPI Swagger UI)
-
-Integrated React interface
