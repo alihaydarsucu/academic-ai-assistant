@@ -1,6 +1,6 @@
 # 🧠 Academic AI Assistant
 
-**An open-source, locally running AI-powered assistant** to support students and researchers during academic writing. The system offers paraphrasing, summarization, grammar checking, citation formatting, and source recommendation functionalities—all powered by local large language models (LLMs) like LLaMA 3, Mistral, and OpenHermes.
+**An open-source, locally running AI-powered assistant** to support students and researchers during academic writing. The system offers paraphrasing, summarization, grammar checking, citation formatting, and source recommendation functionalities—all powered by local large language models (LLMs) like LLaMA 3 and Mistral.
 
 ---
 
