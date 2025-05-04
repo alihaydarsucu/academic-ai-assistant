@@ -53,6 +53,7 @@ academic-ai-agent/
 │ │ │ ├── Paraphrase.jsx
 │ │ │ ├── GrammarCheck.jsx
 │ │ │ ├── CitationGen.jsx
+| | | ├── Summariser.jsx
 │ │ │ └── Sources.jsx
 │ │ ├── api/ # Axios client to FastAPI
 │ │ └── App.jsx
